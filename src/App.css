@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+  font-size: 25px;
+}
+
+.container {
+  --fontsize: 25px;
+}
+html {
+  height: 100%;
+}
+
+nav {
+  margin: auto;
+}
+
+nav ul {
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 18px;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  color: white, var(--second-color);
+  font-size: 22px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(250, 248, 248, 0.418);
+  background: rgba(255, 255, 255, 0.562), rgba(8, 8, 8, 0.733);
+  color: white, var(--second-color);
+}
+
