@@ -1,0 +1,57 @@
+
+
+Fonts
+
+----------------------------------------------
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600&family=Pacifico&family=Source+Sans+Pro:wght@400;600;700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+----------------------------------------------
+
+
+Skills
+----------------------------------------------
+I love to create a design that speaks, Keep it clean, minimal, and simple.
+I LIKE TO DESIGN
+Web Design
+Photomanipulation 
+TOOLS
+Photoshop
+
+I value the business or brand for which I'm creating, thus I enjoy bringing new ideas to life.
+SKILLS
+Html, CSS, Js, React
+
+TOOLS
+vscode, Github, Codepen, etc.
+
+----------------------------------------------
+
+About Text
+
+----------------------------------------------
+I am studying frontend development in Canada. I enjoy creating simple and beautiful websites that are user-friendly and visually attractive. 
+ I`m fascinated by the frontend stack. Experimenting with new ideas and collecting fantastic items are two of my favorite things. 
+
+ When I think about it, I think it has become a piece of art. You can contact me through social networks.
+----------------------------------------------
+
+
+Theme
+----------------------------------------------
+    body:"#FCF6F4",
+    text:"#000000",
+    fontFamily:"'Source Sans Pro', sans-serif",
+    bodyRgba : "252, 246, 244",
+    textRgba:"0,0,0",
+
+
+----------------------------------------------
+
+
+
+
+
+
