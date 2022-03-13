@@ -1,16 +1,18 @@
 import React from "react";
 import styled from "styled-components";
+import { DarkTheme } from "../components/Themes";
 
 const Logo = styled.h1`
-display: inline-block;
-color:${(props) => props.theme.text};
-font-family:'pacifico',cursive;
-position:fixed;
-left:2rem;
-top:2rem;
-z-index:3;
+  display: inline-block;
+  color: ${(props) =>
+    props.color === "dark" ? DarkTheme.text : DarkTheme.body};
+  font-family: "pacifico", cursive;
+  position: fixed;
+  left: 2rem;
+  top: 2rem;
+  z-index: 3;
 `;
-const LogoComponent = () => {
-  return <Logo>LV</Logo>;
+const LogoComponent = (props) => {
+  return <Logo color={props.theme}>LV</Logo>;
 };
 export default LogoComponent;

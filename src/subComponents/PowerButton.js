@@ -23,8 +23,8 @@ const Power = styled.div`
 
   cursor: pointer;
   &:hover {
-    background-color: rgba(0, 255, 0, 0.4);
-    box-shadow: 0 0 8px 6px rgba(0, 255, 0, 0.2);
+    background-color: rgba(247, 247, 247, 0.5);
+    box-shadow: 0 0 8px 6px rgba(0, 000, 0, 0.3);
   }
 
   & > *:first-child {
