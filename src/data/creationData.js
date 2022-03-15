@@ -1,7 +1,7 @@
-export const Blogs = [
+export const creation = [
   {
     id: 1,
-    name: "name blog here",
+    name: "name creation here",
     tags: ["", "", ""],
     date: "year here",
     imgSrc: "",
@@ -9,7 +9,7 @@ export const Blogs = [
   },
   {
     id: 2,
-    name: "name blog here",
+    name: "name creation here",
     tags: ["", "", ""],
     date: "year here",
     imgSrc: "",
@@ -17,7 +17,7 @@ export const Blogs = [
   },
   {
     id: 3,
-    name: "name blog here",
+    name: "name creation here",
     tags: ["", "", ""],
     date: "year here",
     imgSrc: "",
@@ -25,7 +25,7 @@ export const Blogs = [
   },
   {
     id: 4,
-    name: "name blog here",
+    name: "name creation here",
     tags: ["", "", ""],
     date: "year here",
     imgSrc: "",
@@ -33,7 +33,7 @@ export const Blogs = [
   },
   {
     id: 5,
-    name: "name blog here",
+    name: "name creation here",
     tags: ["", "", ""],
     date: "year here",
     imgSrc: "",
@@ -41,7 +41,7 @@ export const Blogs = [
   },
   {
     id: 6,
-    name: "name blog here",
+    name: "name creation here",
     tags: ["", "", ""],
     date: "year here",
     imgSrc: "",
@@ -50,7 +50,7 @@ export const Blogs = [
 
   {
     id: 7,
-    name: "name blog here",
+    name: "name creation here",
     tags: ["", "", ""],
     date: "year here",
     imgSrc: "",
@@ -58,7 +58,7 @@ export const Blogs = [
   },
   {
     id: 8,
-    name: "name blog here",
+    name: "name creation here",
     tags: ["", "", ""],
     date: "year here",
     imgSrc: "",

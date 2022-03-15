@@ -38,7 +38,7 @@ const Contact = styled(NavLink)`
   text-decoration: none;
   z-index: 1;
 `;
-const BLOG = styled(NavLink)`
+const CREATION = styled(NavLink)`
   color: ${(props) => props.theme.text};
   position: absolute;
   top: 50%;
@@ -169,7 +169,7 @@ const Main = () => {
             Say hi..
           </motion.h2>
         </Contact>
-        <BLOG to="/blog">
+        <CREATION to="/creation">
           <motion.h2
             initial={{
               y: -200,
@@ -182,9 +182,9 @@ const Main = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Blog
+            creation
           </motion.h2>
-        </BLOG>
+        </CREATION>
         <WORK to="/work" click={+click}>
           <motion.h2
             initial={{

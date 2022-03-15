@@ -75,8 +75,8 @@ const Item = {
   },
 };
 
-const BlogComponent = (props) => {
-  const { name, tags, date, imgSrc, link } = props.blog;
+const CreationComponent = (props) => {
+  const { name, tags, date, imgSrc, link } = props.creation;
   return (
     <Container variants={Item}>
       <Box target="_blank" to={{ pathname: link }}>
@@ -93,4 +93,4 @@ const BlogComponent = (props) => {
   );
 };
 
-export default BlogComponent;
+export default CreationComponent;

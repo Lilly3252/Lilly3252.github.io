@@ -5,8 +5,8 @@ import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcon";
 import PowerButton from "../subComponents/PowerButton";
 
-import { Blogs } from "../data/BlogData";
-import BlogComponent from "./BlogComponent";
+import { creation } from "../data/creationData";
+import CreationComponent from "./CreationComponent";
 import AnchorComponent from "../subComponents/Anchor";
 import BigTitle from "../subComponents/BigTitlte";
 import { motion } from "framer-motion";
@@ -53,7 +53,7 @@ const container = {
   },
 };
 
-const BlogPage = () => {
+const CreationPage = () => {
   const [numbers, setNumbers] = useState(0);
 
   useEffect(() => {
@@ -78,15 +78,15 @@ const BlogPage = () => {
         <AnchorComponent number={numbers} />
         <Center>
           <Grid>
-            {Blogs.map((blog) => {
-              return <BlogComponent key={blog.id} blog={blog} />;
+            {creation.map((creation) => {
+              return <CreationComponent key={creation.id} creation={creation} />;
             })}
           </Grid>
         </Center>
-        <BigTitle text="BLOG" top="5rem" left="5rem" />
+        <BigTitle text="creation" top="5rem" left="5rem" />
       </Container>
     </MainContainer>
   );
 };
 
-export default BlogPage;
+export default CreationPage;
