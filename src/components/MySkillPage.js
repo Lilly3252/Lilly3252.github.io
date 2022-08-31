@@ -90,8 +90,7 @@ const MySkillPage = () => {
             <Design width={40} height={40} /> Designer
           </Title>
           <Description>
-            I love to create a design that speaks, Keep it clean, minimal, and
-            simple.
+            to be filled
           </Description>
           <Description>
             <strong>I like to ...</strong>
@@ -112,12 +111,11 @@ const MySkillPage = () => {
             <Develope width={40} height={40} /> Frontend Developer
           </Title>
           <Description>
-            I value the business or brand for which I'm creating, thus I enjoy
-            bringing new ideas to life.
+            To be filled.
           </Description>
           <Description>
             <strong>Skills</strong>
-            <p>Html, CSS, Js, React</p>
+            <p>HTML, CSS, JS</p>
           </Description>
           <Description>
             <strong>Tools</strong>
