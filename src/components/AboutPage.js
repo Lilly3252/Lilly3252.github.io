@@ -66,13 +66,9 @@ const AboutPage = () => {
           <img src={astronaut} alt="spaceman" />
         </Spaceman>
         <Main>
-          I am studying frontend development in Canada. I enjoy creating simple
-          and beautiful websites that are user-friendly and visually attractive.
+          To be Filled.
           <br /> <br />
-          I`m fascinated by the frontend stack. Experimenting with new ideas and
-          collecting fantastic items are two of my favorite things.
-          <br /> <br /> When I think about it, I think it has become a piece of
-          art. You can contact me through social networks.
+          
         </Main>
 
         <BigTitle text="ABOUT" top="10%" left="5%" />
